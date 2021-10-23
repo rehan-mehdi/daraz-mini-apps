@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Missions',
+    title: 'Daraz Dosti',
     htmlAttrs: {
       lang: 'en'
     },
@@ -50,11 +50,16 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    'nuxt-clipboard',
+    ['nuxt-clipboard', { autoSetContainer: true }]
   ],
+  clipboard: {
+    autoSetContainer: true
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'https://apidcloud.daraz.com'
+    baseURL: 'https://apidcloud.daraz.com/referral-link'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -63,5 +68,8 @@ export default {
   server: {
     port: 8000
   },
-  loading: false
+  loading: false,
+  router: {
+    base: '/referral-program/'
+  }
 }
