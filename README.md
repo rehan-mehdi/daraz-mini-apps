@@ -27,7 +27,7 @@ v14.16.0
 ## Screens
 ![Alt text](https://github.com/rehan-mehdi/daraz-mini-apps/blob/main/missions.daraz.com_pk_screen_1.png?raw=true "First Screen")
 
-Once Customer Enter his Email Address
+# Once Customer Enter his Email Address
 ![Alt text](https://github.com/rehan-mehdi/daraz-mini-apps/blob/main/missions.daraz.com_pk_screen_2.png?raw=true "Second Screen After Entering Email")
 
 Necessary configuration for `axios` call and `router` setting in nuxt.config.js has been done for developers.
