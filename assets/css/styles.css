@@ -1,7 +1,8 @@
 /* Set background color of the page and main div*/
 .html-wrapper, html {
-    background-color: #11AEB1;
+    background-color: #6EBB02;
 }
+
 
 /* The following are the bunch of classes from style tag of php file */
 img.img-responsive.center-block.missionIcon {
@@ -30,7 +31,7 @@ th.missionTitle {
     font-size: 12px;
     line-height: 1.5;
     border-radius: 5px;
-    background-color: #11AEB1 !important;           /* Start Now button color */
+    background-color: #008E2E !important; /* Start Now background color */
     min-width: 64px;
 
 }

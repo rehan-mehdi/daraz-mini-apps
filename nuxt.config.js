@@ -63,5 +63,8 @@ export default {
   server: {
     port: 8000
   },
-  loading: false
+  loading: false,
+  router: {
+    base: '/pk/'
+  }
 }
