@@ -1,0 +1,86 @@
+/* Set background color of the page and main div*/
+.html-wrapper, html {
+    background-color: #11AEB1;
+}
+
+/* The following are the bunch of classes from style tag of php file */
+img.img-responsive.center-block.missionIcon {
+    width: 40px;
+    height: 40px;
+    max-width: 40px ;
+    float: left;
+}
+
+th.missionTitle {
+    font-size: 12px;
+    float: left;
+    text-align: left!important;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+    background-color: white;
+    border-radius: 12px;
+    border-top: 0;
+}
+
+.btn-group-xs>.btn, .btn-xs {
+    padding: 2.5px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 5px;
+    background-color: #11AEB1 !important;           /* Start Now button color */
+    min-width: 64px;
+
+}
+
+.btn-group-xs>.btn, .btn-xs-locked {
+   padding: 2.5px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 5px;
+    background-color: #999999 !important;
+    min-width: 64px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+a.link {
+    text-decoration: none!important;
+    color: #fff!important;
+    /* background-color: red; */
+}
+
+.lzd-act-richtext h5 {
+    font-size: 13px!important;
+    margin: 0!important;
+}
+
+.lzd-act-richtext {
+    font-family: Arial,Verdana,sans-serif!important;
+    line-height: normal!important;
+    word-wrap: break-word;
+    word-break: keep-all;
+    overflow: hidden;
+    padding: 0;
+    margin-top: 0!important;
+    margin-bottom: -50px;
+}
+
+
+.container-fluid {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.btn-primary {
+    color: #fff;
+    border-color: transparent;
+}
