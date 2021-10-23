@@ -24,16 +24,6 @@ $ npm run dev
 v14.16.0
 ```
 
-## Branches
-Five branches have been derived from `main` branch reflecting 5 different ventures:
-
-1. `bd`
-2. `lk`
-3. `mm`
-4. `np`
-5. `pk`
-
-
 Necessary configuration for `axios` call and `router` setting in nuxt.config.js has been done for developers.
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
