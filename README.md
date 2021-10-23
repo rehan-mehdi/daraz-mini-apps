@@ -24,6 +24,10 @@ $ npm run dev
 v14.16.0
 ```
 
+## Screens
+![Alt text](https://github.com/rehan-mehdi/daraz-mini-apps/blob/main/missions.daraz.com_pk_screen_1.png?raw=true "First Screen")
+![Alt text](https://github.com/rehan-mehdi/daraz-mini-apps/blob/main/missions.daraz.com_pk_screen_2.png?raw=true "Second Screen After Entering Email")
+
 Necessary configuration for `axios` call and `router` setting in nuxt.config.js has been done for developers.
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
