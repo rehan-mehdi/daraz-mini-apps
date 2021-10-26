@@ -158,7 +158,7 @@
       </div>
     </div>
     <?php
-      $connection = mysqli_connect('rm-gs5v4gr5s8698tit3.mysql.singapore.rds.aliyuncs.com','dbadmin','D@raz123987+');
+      $connection = mysqli_connect('locahost','dbname','pwd');
       $db = mysqli_select_db($connection,'u344480234_dbdb');
       if(isset($_POST['search'])){
         $message2 = "Sorry we cound not find your progress, make sure to track with your Daraz Email ID";
